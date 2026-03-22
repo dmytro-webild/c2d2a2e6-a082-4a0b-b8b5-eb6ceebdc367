@@ -20,7 +20,7 @@ export default function LandingPage() {
       borderRadius="rounded"
       contentWidth="mediumSmall"
       sizing="mediumLargeSizeMediumTitles"
-      background="fluid"
+      background="circleGradient"
       cardStyle="gradient-radial"
       primaryButtonStyle="radial-glow"
       secondaryButtonStyle="glass"
@@ -50,10 +50,10 @@ export default function LandingPage() {
             { text: "Learn More", href: "#features" }
           ]}
           buttonAnimation="slide-up"
-          background={{ variant: "fluid" }}
+          background={{ variant: "plain" }}
           mediaItems={[
             { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BIBJJiLnidOquXtU46kgUnPLfk/a-vibrant-modern-ai-conversation-interfa-1774167166747-1883f5ce.png", imageAlt: "ChatGPT AI Interface" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BIBJJiLnidOquXtU46kgUnPLfk/abstract-representation-of-natural-langu-1774167166290-7eaba0b9.png?_wi=1", imageAlt: "Natural Language Processing" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BIBJJiLnidOquXtU46kgUnPLfk/abstract-representation-of-natural-langu-1774167166290-7eaba0b9.png", imageAlt: "Natural Language Processing" },
             { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BIBJJiLnidOquXtU46kgUnPLfk/visualization-of-vast-knowledge-base-and-1774167166591-2d908128.png", imageAlt: "AI Knowledge Base" },
             { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BIBJJiLnidOquXtU46kgUnPLfk/team-collaboration-with-ai-assistance-sh-1774167166971-79488a00.png", imageAlt: "Team Collaboration" },
             { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BIBJJiLnidOquXtU46kgUnPLfk/modern-tech-company-environment-showcasi-1774167166518-625e4c90.png", imageAlt: "Innovation Hub" },
@@ -78,7 +78,7 @@ export default function LandingPage() {
             { id: "coding", title: "Code Generation & Debugging", content: "Write, debug, and optimize code across multiple programming languages. Get explanations and suggestions to improve your development workflow." },
             { id: "creative", title: "Creative Thinking & Brainstorming", content: "Generate ideas, explore concepts, and push creative boundaries. ChatGPT is your brainstorming partner for projects and innovation." }
           ]}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BIBJJiLnidOquXtU46kgUnPLfk/abstract-representation-of-natural-langu-1774167166290-7eaba0b9.png?_wi=2"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BIBJJiLnidOquXtU46kgUnPLfk/abstract-representation-of-natural-langu-1774167166290-7eaba0b9.png"
           imageAlt="AI Capabilities"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
